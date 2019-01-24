@@ -1,0 +1,56 @@
+page {
+	position: relative;
+	height: 100%;
+  background: #eee;
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+    background: #eee;
+}
+
+.view-row{
+    display: flex;
+	flex-direction: row;
+	height: 80rpx;
+	margin: 25rpx;
+	align-items: center;
+  background-color: #fff;
+  border:1px solid #fff;
+  border-radius:5px;
+}
+
+.view-row text{
+	font-size: 30rpx;
+	color: #666;
+	margin-left: 0rpx;
+	width: 150rpx;
+}
+
+.view-row input{
+	font-size: 30rpx;
+	color: #666;
+	
+}
+
+.input-placeholder{
+  color: #ccc;
+  margin-left: 0rpx;
+  width: 400rpx;
+}
+
+.btnWrap{
+  align-self: center;
+  font-size: 32rpx;
+  margin-top: 30rpx;
+  color: #ffffff;
+  text-align: center;
+  height: 70rpx;
+  border-radius: 9rpx;
+  background: #f00;
+  line-height: 70rpx;
+  margin:25rpx;
+}
+.btn{ background-color: #f00; color: #fff;}
